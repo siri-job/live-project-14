@@ -1,0 +1,182 @@
+*{
+    padding: 6px 6px;
+    margin: 0;   
+}
+
+/*    nav   */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+[alt="logo"]{
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    width: 450px;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav ul::before{
+   content: " ";
+   height: 2px;
+   width: 330px;
+   background-color: rgb(30, 30, 33);
+   position: absolute;
+   left: -370px;
+   top:20px;
+
+}
+
+main{
+    position: relative;
+}
+
+/*     left_container       */
+
+[alt="person"]{
+    position: absolute;
+    width: 40vw;
+    height: 100vh;
+    top: -90px;
+    left: -40px;
+
+    /* display: none; */
+    
+    
+}
+
+/* right_container */
+
+.right_container{
+    position: relative;
+    height: 85vh;
+}
+
+.right_top{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+.head>h1{
+    font-size: 7.5em;
+    position: relative;
+    right: 430px;
+    bottom: 50px;
+}
+
+.right_heading h1{
+    font-size: 7.5em;
+    position: relative;
+    right: 300px;
+    bottom: 100px;
+}
+
+.right_heading p{
+    font-size: 2em;
+    position: relative;
+    bottom: 200px;
+    left: 70px;
+}
+
+.btn{
+    position: relative;
+    bottom: 180px;
+    left: 210px;
+    padding: 10px 30px;
+    color: aliceblue;
+    background-color: #2f2f2f;
+   
+
+}
+
+
+/* social_media */
+
+.social_media ul{
+    list-style-type: none;
+}
+
+/* right_bottom */
+
+.right_bottom{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 55vw;
+    justify-content: space-around;
+    
+}
+
+.right_bottom ul{
+    line-height: 1em;
+    position: relative;
+    top: 60px;
+    line-height: 3.5em;
+}
+
+.quotation i{
+    position: relative;
+    top: 60px;
+}
+
+.quotation p{
+    position: relative;
+    top: 50px;
+    width: 350px;
+    line-height: 2em;
+}
+
+[alt="dance"]{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    top: 40px;
+}
+
+[alt="arrow"]{
+    height: 140px;
+    position: relative;
+    top: 200px;
+
+}
+
+
+
+
+.right_bottom ul::before{
+content: "";
+display: inline-block;
+height: 270px;
+width: 1px;
+background-color: #2f2f2f;
+position: relative;
+left:-20px;
+top:80px;
+position: absolute;
+top: 40px;
+left:-8px;
+}
+
+
+
+
+.right_bottom li:nth-child(1)::before{
+    content: "";
+    background-color: rgb(90, 88, 88);
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    position: absolute;
+    left: -12px;
+    top: 35px;
+}
