@@ -180,3 +180,276 @@ left:-8px;
     left: -12px;
     top: 35px;
 }
+
+
+/* mobile resposive */
+
+@media screen and (max-width:1426px){
+
+    .head>h1{
+        font-size: 5em;
+       
+    }
+
+    .right_heading h1{
+        font-size: 5em;
+        
+    }
+    
+}
+
+
+@media  screen and (max-width:1284px) {
+
+    .head>h1{
+       
+        right: 370px;
+        bottom: 20px;
+    }
+
+
+    .right_heading h1{
+       
+        right: 220px;
+        bottom: 60px;
+    }
+
+
+    .right_bottom ul::before{
+        
+        height: 330px;
+        width: 1px;
+        
+        }
+        
+
+    
+}
+
+@media screen and (max-width:1161px){
+
+    .head>h1{
+       
+        right: 280px;
+        bottom: 20px;
+    }
+
+
+    .right_heading h1{
+       
+        right: 210px;
+        bottom: 60px;
+    }
+
+
+
+
+
+    [alt="dance"]{
+        width: 350px;
+    }
+
+
+    .right_bottom ul::before{
+        
+        height: 270px;
+        width: 1px;
+        
+    }
+
+}
+
+@media screen and (max-width:1009px) {
+
+    .btn{
+        display: none;
+        
+    }
+
+    .head>h1{
+       
+        right: 210px;
+        bottom: 20px;
+    }
+    
+
+    .right_heading h1{
+       
+        right: 170px;
+        bottom: 60px;
+    }
+
+  
+
+    .quotation p{
+        
+        width: 270px;
+        
+    }
+
+
+    [alt="dance"]{
+        width: 250px;
+    }
+   
+}
+
+@media  screen and (max-width:888px) {
+
+    .right_heading p{
+        font-size: 1.5em;
+        left: 110px;
+        
+    }
+
+
+    .head>h1{
+       
+        right: 150px;
+        
+    }
+    
+    .right_heading h1{
+       
+        right: 110px;
+       
+    }
+
+    
+   
+}
+@media screen and (max-width:778px){
+
+
+    .right_top{
+        display: flex;
+        flex-direction: column;
+    }
+    .right_bottom ul{
+        display: none;
+    }
+
+
+    nav ul{
+        
+        width: 350px;
+        
+    }
+}
+
+@media screen and (max-width:678px){
+
+    .head>h1{
+        font-size: 3em;
+        bottom: 30px;
+       
+    }
+
+    .right_heading h1{
+        font-size: 4em;
+
+        
+    }
+
+    .right_heading p{
+        font-size: 1.2em;
+        left: 110px;
+       bottom: 100px;
+        
+    }
+
+    .social_media{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:604px) {
+
+    .arrow{
+        display: none;
+    }
+
+    nav ul{
+        
+        width: 280px;
+        
+    }
+
+    .head>h1{
+       
+        right: 90px;
+        
+    }
+    
+    .right_heading h1{
+       
+        right: 75px;
+       
+    }
+
+    .right_heading p{
+        
+        left: 130px;
+      
+        
+    }
+    
+}
+
+@media screen and (max-width:489px) {
+
+    .right_heading p{
+        
+        left: 130px;
+        bottom: 80px;
+        
+    }
+
+
+    .head>h1{
+       
+        right: -90px;
+        
+    }
+    
+    .right_heading h1{
+       
+        right: -100px;
+       
+    }
+
+
+    .quotation p{
+        
+        width: 200px;
+        right: -90px;
+        top: 0px;
+        
+    }
+
+
+    [alt="dance"]{
+        width: 160px;
+        top: 0;
+       
+
+        right: -90px;
+    }
+
+
+    [alt="person"]{
+        width: 60vw;
+        
+       
+    }
+
+    nav ul li:nth-child(2){
+        display: none;
+    }
+   .fa-solid{
+    display: none;
+   }
+
+   
+}
